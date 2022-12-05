@@ -1,5 +1,6 @@
-<?php 
+<?php
 require_once 'config/Config.php';
+require_once 'config/Helpers.php';
 require_once 'config/app/Autoload.php';
 //echo $_GET['url'];
 $ruta = (!empty($_GET['url'])) ? $_GET['url'] : 'home/index';
